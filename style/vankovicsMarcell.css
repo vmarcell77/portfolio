@@ -1,0 +1,156 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.fejlec{
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right,grey , black);
+}
+.fejlec > h1{
+    margin: 28px 0 10px 0;
+    font-size: 40px;
+    color: whitesmoke;
+}
+.fejlec > h3{
+    margin: 10px 0 32px 0;
+    font-size: 34px;
+    color: whitesmoke;
+}
+
+
+.navigaciossav{
+    height: 5vh;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-image: linear-gradient(to right, black , grey);
+}
+.navigaciossav > a{
+    margin-left: 40px;
+    font-size: 22px;
+    text-decoration: none; 
+    color: white;
+}
+.navigaciossav > a:hover{
+    color: wheat;
+}
+.navigaciossav > a:last-of-type{
+    margin-left: 60px;
+}
+.navigaciossav > .kivalasztott{
+    font-size: 24px;
+    color: whitesmoke;
+}
+
+
+.tartalom{
+    height: 70vh;
+    display: flex;
+} 
+.tartalom > .bal{
+    width: 35vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.tartalom > .bal > img{
+    box-shadow: 4px 4px 4px 0 #888888;
+}
+.tartalom > .fent{
+    margin-top: 28px;
+    justify-content: flex-start;
+}
+.tartalom > .jobb{
+    margin-top: 44px;
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.tartalom > .jobb > h2{
+    font-size: 28px;
+}
+.tartalom > .jobb > p{
+    margin:  0 20px 0 0;
+    font-size: 20px;
+    text-align: justify;
+    text-justify: auto;
+}
+.tartalom > .jobb > div{
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-evenly;
+    width: 65vw;
+}
+
+.tartalom > .baligazitott{
+    margin-top: 44px;
+    width: 65vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.tartalom > .baligazitott > p{
+    margin-left: 12px;
+}
+
+
+.dokumentacio{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+}
+.dokumentacio > .bal {
+    margin: 5px;
+}
+.dokumentacio > .bal > p{
+    font-size: 20px;
+}
+.dokumentacio > .jobb {
+    margin: 5px;
+}
+.dokumentacio > .jobb > p{
+    font-size: 20px;
+}
+.dokumentacio > .jobb > ul > li >.labor{
+    margin: 0;
+}
+
+
+.lablec{
+    height: 10vh;
+    background-color: gainsboro;
+    display: flex;
+    justify-content: center;
+    align-items: center;    
+}
+.lablec > a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+}
+.lablec > a > .facebook{
+    width: 50px;
+    height: 50px;
+    margin-right: 20px;
+}
+.lablec > a > .instagram{
+    width: 60px;
+    height: 60px;
+}
